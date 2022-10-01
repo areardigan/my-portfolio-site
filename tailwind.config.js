@@ -13,6 +13,9 @@ module.exports = {
         "kinda-blue": "#4717F6",
         "gray-ish": "#E7DFDD",
       },
+      fontFamily: {
+        "u-mono": ["UbuntuMono", "monospace"],
+      },
     },
   },
   plugins: [],

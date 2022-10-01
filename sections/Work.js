@@ -1,7 +1,8 @@
 import React from "react";
+import MatrixRain from "../components/matrixrain";
 
 const Work = () => {
-  return <div>Work</div>;
+  return;
 };
 
 export default Work;

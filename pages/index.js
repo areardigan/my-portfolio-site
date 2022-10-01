@@ -1,7 +1,9 @@
 import Head from "next/head";
 import Image from "next/image";
+import MatrixRain from "../components/matrixrain";
 
-import { HeroSection } from "../sections";
+import { About, Work, WorkExperience } from "../sections";
+
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -13,7 +15,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <HeroSection />
+      <About />
+      <Work />
+      <WorkExperience />
     </div>
   );
 }
