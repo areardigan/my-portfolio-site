@@ -16,8 +16,8 @@ export default function Home() {
       </Head>
 
       <About />
-      <Work />
       <WorkExperience />
+      <Work />
     </div>
   );
 }

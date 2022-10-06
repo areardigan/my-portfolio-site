@@ -10,7 +10,6 @@ const Layout = ({ children }) => {
       <NavBar />
       <HeroSection />
       <main className="min-h-screen max-w-5xl  m-auto bg-sortof-black">
-        {/* <MatrixRain /> */}
         {children}
       </main>
       <Footer />

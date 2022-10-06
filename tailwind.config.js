@@ -12,6 +12,7 @@ module.exports = {
         "maybe-purple": "#A239CA",
         "kinda-blue": "#4717F6",
         "gray-ish": "#E7DFDD",
+        "more-gray": "#C1C1C1",
       },
       fontFamily: {
         "u-mono": ["UbuntuMono", "monospace"],
