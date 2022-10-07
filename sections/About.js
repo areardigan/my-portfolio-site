@@ -16,11 +16,13 @@ const About = () => {
       <div className="text-white  mt-12 flex-col ">
         <h1 className="w-full  font-u-mono text-2xl text-maybe-purple">
           01.
-          <span className="text-4xl font-u-mono text-white ml-2">About Me</span>
+          <span className="text-4xl font-u-mono text-white ml-2">
+            About Me...
+          </span>
         </h1>
         <div className="flex justify-center ">
           <div className="flex-col w-1/2 px-5 py-8 space-y-5 font-light">
-            <p>
+            {/* <p>
               Hello My name is Andrew Reardigan and I enjoy creating things and
               learning all things tech related. I started a complete 180 degree
               career change in late 2020. Hello~ My name is Andrew Reardigan and
@@ -34,7 +36,7 @@ const About = () => {
               blah. Fast forward to today I a, 60 credits into pursuing my
               bachelor's in Computer Science and blah blah.
             </p>
-            <p>A few of the technologies that I work with are:</p>
+            <p>A few of the technologies that I work with are:</p> */}
             <ul className="grid grid-cols-2">
               {technologyList.map((listItem, index) => (
                 <li
